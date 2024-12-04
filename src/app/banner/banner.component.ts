@@ -1,7 +1,6 @@
 import {Component, Input} from '@angular/core';
-import {NgOptimizedImage} from "@angular/common";
 
-type BannerData = {
+export type BannerData = {
   title: string;
   description: string;
   backgroundPath: string;
@@ -13,9 +12,7 @@ type BannerData = {
 @Component({
   selector: 'app-banner',
   standalone: true,
-  imports: [
-    NgOptimizedImage
-  ],
+  imports: [],
   templateUrl: './banner.component.html',
   styleUrl: './banner.component.css'
 })

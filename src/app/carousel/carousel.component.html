@@ -1,0 +1,11 @@
+<div class="carousel"
+     swipe
+     (next)="showNext()"
+     (previous)="showPrevious()"
+>
+  <div [@slideInOut]="transitionCounter">
+    <div *ngFor="let slide of slides; let i = index">
+      <app-banner *ngIf="i === currentSlide" [bannerData]="slide" />
+    </div>
+  </div>
+</div>
