@@ -1,0 +1,31 @@
+{
+  "banners": [
+    {
+      "title": "WinzUp Loyalty Program",
+      "description": "Get up to 35% in rewards: daily rakeback, weekly cashback and level-up bonuses",
+      "backgroundPath": "./assets/winzup-bg-mob.webp",
+      "imagePath": "./assets/winzup_mob.png",
+      "linkText": "Join now",
+      "url": "./",
+      "highlightText": "35% in rewards"
+    },
+    {
+      "title": "Valentine's Fortune Drops",
+      "description": "Trigger random prizes and win a share of €30,000!",
+      "backgroundPath": "./assets/ValentinesFortuneDrops_mob-bg.png",
+      "imagePath": "./assets/ValentinesFortuneDrops_mob-pic.png",
+      "linkText": "Learn more",
+      "url": "./",
+      "highlightText": "€30,000"
+    },
+    {
+      "title": "Wheel of Winz",
+      "description": "Spin the wheel to win up to €15,000 weekly",
+      "backgroundPath": "./assets/wheel-mob-bg.webp",
+      "imagePath": "./assets/wheel-mob.png",
+      "linkText": "Spin now",
+      "url": "./",
+      "highlightText": "€15,000"
+    }
+  ]
+}
