@@ -1,0 +1,9 @@
+<div class="banner">
+  <img class="banner__background" src="{{bannerData.backgroundPath}}" alt="background image" />
+  <div class="banner__content">
+    <img class="banner__illustration" src="{{bannerData.imagePath}}" alt="{{bannerData.title}} illustration">
+    <h1 class="banner__header">{{bannerData.title}}</h1>
+    <p class="banner__description" [innerHTML]="this.textWithHighlight"></p>
+    <a class="banner__button" href="{{bannerData.url}}">{{bannerData.linkText}}</a>
+  </div>
+</div>
